@@ -8,6 +8,19 @@ blockquote {
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
+
+.breadcrumbs {
+  list-style-type: none;
+  
+}
+
+.breadcrumbs li {
+  background-color: #3e3e3e2e;
+  border-radius: 5px;
+  box-shadow: #737373 5px 5px 10px;
+  padding: 10px;
+}
+
 blockquote:before {
   color: #f2e1b4;
   content: open-quote;
