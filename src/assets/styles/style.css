@@ -235,10 +235,6 @@ th[scope='row'] {
   flex: 1 1 70%;
 }
 
-.limpiar-float {
-  clear: both;
-}
-
 .img-responsive > * {
   width: 200px;
   height: auto;
@@ -312,10 +308,11 @@ body {
   margin: 0;
 }
 
-.titulo-portada > small {
+.titulo-portada > em {
   font-size: 2em;
   font-weight: 700;
   letter-spacing: 12px;
+  font-style: normal;
 }
 
 .icon-logo--gold {
