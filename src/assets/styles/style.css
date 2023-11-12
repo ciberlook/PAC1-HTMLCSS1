@@ -51,6 +51,22 @@ blockquote p {
   padding: 1em;
 }
 
+.icon-logo--gold {
+  color: goldenrod;
+}
+
+.icon-logo--big {
+  font-size: 10em;
+}
+
+.icon-logo--medium {
+  font-size: 5em;
+}
+
+.icon-logo--black {
+  color: black;
+}
+
 /* Enlaces de forma general */
 a {
   color: #daa520;
@@ -67,7 +83,7 @@ a:hover {
   color: #ffb600;
 }
 
-.category__desc > a {
+.mayusculas, .category__desc > a {
   text-transform: uppercase;
 }
 
@@ -77,10 +93,6 @@ nav a:hover {
 
 nav .activo {
   color: darkred;
-}
-
-.mayusculas {
-  text-transform: uppercase;
 }
 
 .bar1,
@@ -109,7 +121,7 @@ nav .activo {
 .sandwich {
   width: 50px;
   height: 50px;
-  position: fixed;
+  position: absolute;
   top: 28px;
   right: 50px;
   z-index: 99;
@@ -154,6 +166,14 @@ header,
 header figure {
   text-align: center;
   color: white;
+}
+
+.header--naranja {
+  background-color: goldenrod;
+  height: 140px;
+  position:sticky;
+  top: 0;
+  left: 0;
 }
 
 /* Configuración tabla */
@@ -244,11 +264,6 @@ th[scope='row'] {
   margin: 2em;
 }
 
-.naranja {
-  background-color: goldenrod;
-  height: 140px;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -270,7 +285,6 @@ body {
   height: 150px;
   display: flex;
   place-content: end center;
-  align-items: end;
   flex-wrap: wrap;
 }
 
@@ -313,22 +327,6 @@ body {
   font-weight: 700;
   letter-spacing: 12px;
   font-style: normal;
-}
-
-.icon-logo--gold {
-  color: goldenrod;
-}
-
-.icon-logo--big {
-  font-size: 10em;
-}
-
-.icon-logo--medium {
-  font-size: 5em;
-}
-
-.icon-logo--black {
-  color: black;
 }
 
 /* Listado de Categorias */
@@ -383,6 +381,8 @@ body {
 .category__desc > p:last-child {
   margin-top: 1em;
 }
+
+/* Carrusel definido en la página detalle */
 
 .carrusel > iframe {
   width: 100%;
