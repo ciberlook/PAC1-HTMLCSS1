@@ -9,63 +9,12 @@
 
 <body>
     <main>
-        <header class="naranja">
-            <figure class="logo ">
-                <a href="./index.html" title="Ir a inicio"><span class="icon-logo icon-logo--medium icon-logo--black"></span></a>
-            </figure>
-            <button class="sandwich"><span class="bar1"></span><span class="bar2"></span><span class="bar3"></span></button>
-            <nav><ul class="menu-principal menu-principal--hidden">
-                <li class="menu-principal__item"> <a href="./index.html">PORTADA</a> </li>
-                <li class="menu-principal__item"> <a href="./categoria.html">CATEGORÍA</a> </li>
-                <li class="menu-principal__item"> <a href="./outtakes.html" class="activo">DETALLE</a> </li>
-                <li class="menu-principal__item"> <a href="./presentacion.html">PRESENTACIÓN</a> </li>
-                <li class="menu-principal__item"> <a href="./enlaces.html">ENLACES</a> </li>
-            </ul></nav>
-        </header>
-        <section class="margin-2">
-            <ul class="breadcrumbs">
-                <li><a href="index.html">Inicio</a> / <a href="categoria.html">Categoría</a> / Tomas Falsas </li>
-            </ul>
-            <h1 class="centre">Tomas falsas</h1>
-        <p>Como ocurre con todas las series, las tomas falsas son un componente humorístico que acerca al espectador el trabajo de los actores haciendolos más humanos. Resulta que las tomas falsas nos permiten hacer un viaje en el tiempo haciendo una recopilación de los mejores momentos de la serie que quedaron fuera de escena pero que de algún modo quedaron grabadas para el recuerdo y que hoy quiero compartir con ustedes.</p>
-        <p>Esta colección de tomas falsas son vídeos muy divertidos, que fueron eliminados de la escena final y dan un toque de humor resultando muy graciosos. A continuación, puedes disfrutar de los tres videos siguientes:</p>
-        <figure class="carrusel">
-            <iframe  src="https://www.youtube.com/embed/8pN96nOt31g?si=Cw07FlkWawmtdwpu" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe  src="https://www.youtube.com/embed/IJYNJsEB2uk?si=iKi3FYvdjV3tFV8L" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe  src="https://www.youtube.com/embed/q6iI1iSdXGM?si=kv4-m5FjwQwaWuGI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <figcaption class="centre">Bloopers o tomas falsas de la serie Startrek Voyager</figcaption>
-        </figure>
+        <include src="src/views/outtakes/header.html"></include>
+        <include src="src/views/outtakes/body.html"></include>
         
-        </section>
-        <section class="margin-2">
-            <h1>¿Quién es tu personaje favoritio?</h1>
-            <div class="flex">
-            <figure class="img-responsive flex__ixq">
-                <img src="./assets/images/seven.jpg" alt="Seven" width="1468" height="2048">
-                <figcaption>Humana Ex Borg: Oficial de astrometría</figcaption>
-            </figure>
-            <div class="flex__dcha">
-            <p>Estamos ante una serie muy completa, con un impresionante reparto y donde cada episodio presenta un nuevo reto a nuestra imaginación. La verdad es que después de tantos episodios, y compartir cada aventrua en el voyager con todos los personajes, elegir uno puede resultar complicado. </p>
-            <p>De todos modos, para conocer el reparto de la serie puedes visitar la página <a href="#">reparto</a>, donde puedes obtener información al respecto. Para el caso que nos ocupa, me gustaría compartir con ustedes quien es mi persojane favorito de la serie y también una secuencia que creo que es de las mejores que se han hecho en pantalla.</p>
-            <h2>¿Realidad o ficción? ¿Estaba buena la tarta de queso?</h2>
-            
-            <figure class="carrusel">
-                <iframe src="https://www.youtube.com/embed/sXXWrW6DiJA?si=luoTW4dY1caxoXbw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <figcaption class="carrusel--max560"><em>Fijate en como disfruta de la tarta!!. Desde luego, tras ver esta peculiar escena, no creo que Siete de Nueve vuelva a decir: <q>La resistencia es inutil...</q>. ¿Quién se resiste a una tarta de queso?</em></figcaption>
-            </figure>
-            
-            </div>
-        </div>
-            <div class="limpiar-float"></div>
-            
-            
-        </section>
         
     </main>
-    <footer class="authority authority--bg-black">
-        <p>Autor: Alberto Marín Mendoza &copy; | PAC1, Herramientas HTML y CSS </p>
-        <p><a href="https://www.uoc.edu" target="_blank"><abbr lang="ca" title="Universitat Oberta de Catalunya">UOC</abbr></a> | Star Trek Discovery <a href="#" target="_blank"> Más información</a></p>
-    </footer>
+    <include src="src/views/footer.html"></include>
     <script src="assets/scripts/main.js"></script>
 </body>
 </html>

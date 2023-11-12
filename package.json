@@ -10,6 +10,7 @@
     "parcel:dev": "parcel --open",
     "parcel:build": "parcel build",
     "clean": "rimraf dist .parcel-cache",
+    "format": "prettier --write \"src/**/*.css\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -21,7 +22,10 @@
     "parcel": "^2.10.1",
     "posthtml-doctype": "^1.1.1",
     "posthtml-include": "^1.7.4",
-    "rimraf": "^5.0.5"
+    "prettier": "^3.0.3",
+    "rimraf": "^5.0.5",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard": "^34.0.0"
   },
   "dependencies": {
     "icomoon": "^1.0.0"
